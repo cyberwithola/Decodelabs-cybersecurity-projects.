@@ -1,10 +1,7 @@
-"""
-Password Strength Checker
-DecodeLabs Industrial Training Kit - Project 1
 
-Checks a password and classifies it as Weak, Medium, or Strong
-based on length, character variety, and a common-password blocklist.
-"""
+# Password Strength Checker
+# DecodeLabs Industrial Training Kit - Project 1
+
 
 import string
 
@@ -30,7 +27,7 @@ def check_strength(password: str) -> dict:
     is_common = password.lower() in COMMON_PASSWORDS
     score = sum(checks.values())
 
-    # --- Decide the final label ---
+
     if is_common:
         label = "Weak"
         reason = "This password appears in a list of commonly leaked passwords."
@@ -57,7 +54,7 @@ def check_strength(password: str) -> dict:
 
 
 def print_report(password: str) -> None:
-    """Pretty-print the strength report for a single password."""
+
     result = check_strength(password)
 
     print("\n" + "-" * 40)
