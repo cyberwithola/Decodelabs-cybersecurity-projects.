@@ -8,16 +8,16 @@ Choose an option:
 
 Enter choice (1/2/3): 1
 Enter text to encrypt: Hello World
-Enter shift key (e.g. 3): 5
+Enter shift key (e.g. 3): 3
 
 ---------------------------------------------
-Encrypted message: Mjqqt Btwqi
+Encrypted message: Khoor Zruog
 (Save this shift key — you'll need it to decrypt later.)
 ---------------------------------------------
 
 Enter choice (1/2/3): 2
-Enter the encrypted message: Mjqqt Btwqi
-Enter shift key (e.g. 3): 5
+Enter the encrypted message: Khoor Zruog
+Enter shift key (e.g. 3): 3
 
 ---------------------------------------------
 Decrypted message: Hello World
