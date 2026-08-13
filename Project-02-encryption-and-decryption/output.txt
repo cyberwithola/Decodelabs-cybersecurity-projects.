@@ -1,0 +1,29 @@
+=========================
+    Caesar Cipher Tool
+=========================
+Choose an option:
+  1. Encrypt a message
+  2. Decrypt a message
+  3. Quit
+
+Enter choice (1/2/3): 1
+Enter text to encrypt: Hello World
+Enter shift key (e.g. 3): 5
+
+---------------------------------------------
+Encrypted message: Mjqqt Btwqi
+(Save this shift key — you'll need it to decrypt later.)
+---------------------------------------------
+
+Enter choice (1/2/3): 2
+Enter the encrypted message: Mjqqt Btwqi
+Enter shift key (e.g. 3): 5
+
+---------------------------------------------
+Decrypted message: Hello World
+---------------------------------------------
+
+Enter choice (1/2/3): 3
+Goodbye!
+
+Process finished with exit code 0
