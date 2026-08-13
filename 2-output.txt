@@ -1,0 +1,34 @@
+=========================
+Password Strength Checker
+=========================
+Type 'quit' or 'exit' to stop.
+
+Enter a password to check: Decodelabs_123
+
+----------------------------------------
+Password: **************  (length: 14)
+----------------------------------------
+Score: 5 / 5
+Strength: Strong
+Reason: Meets all length and character variety requirements.
+----------------------------------------
+
+Enter a password to check: Decodelabs
+
+----------------------------------------
+Password: **********  (length: 10)
+----------------------------------------
+Score: 3 / 5
+Strength: Medium
+Reason: Meets some requirements, but could be improved.
+----------------------------------------
+
+Enter a password to check: decodelabs
+
+----------------------------------------
+Password: **********  (length: 10)
+----------------------------------------
+Score: 2 / 5
+Strength: Weak
+Reason: Fails most character variety requirements.
+----------------------------------------

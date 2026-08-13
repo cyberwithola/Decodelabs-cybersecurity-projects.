@@ -3,8 +3,6 @@
 # DecodeLabs Industrial Training Kit - Project 1
 
 
-import string
-
 # A small sample of extremely common leaked/weak passwords.
 COMMON_PASSWORDS = {
     "password", "password123", "123456", "12345678", "qwerty",
